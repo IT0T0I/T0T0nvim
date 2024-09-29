@@ -1,0 +1,12 @@
+require("config_mac.core.options")
+require("config_mac.core.keymaps")
+require("config_mac.core.colorscheme")
+require("config_mac.plugins-setup")
+require("config_mac.plugins.comment")
+require("config_mac.plugins.nvim-tree")
+require("config_mac.plugins.lualine")
+require("config_mac.plugins.telescope")
+require("config_mac.plugins.nvim-cmp")
+
+vim.cmd("set verbosefile=~/nvim.log")
+vim.cmd("set verbose=10")
